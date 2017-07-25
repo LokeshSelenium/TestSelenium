@@ -13,7 +13,6 @@ public class DIU
 		driver.get("https://q02int.gwpdev.seic.com");
 		
 		//Enter User Name
-		//Enter Password
 		WebElement un;
 		un=driver.findElement(By.name("USER"));
 		un.sendKeys("Q02qseigen02");
